@@ -384,6 +384,7 @@ hr {
 }
 
 /* ── PLANNING FORM ── */
+/* TEMPORARILY DISABLED
 table[id*="planning_form_table"] {
     border-collapse: separate !important;
     border-spacing: 0 4px !important;
@@ -398,6 +399,7 @@ table[id*="planning_form_table"] td.ed input[type="text"],
 table[id*="planning_form_table"] td.ed textarea {
     margin-bottom: 4px !important;
 }
+TEMPORARILY DISABLED */
 
 td.djep-form-sections {
     font-family: 'Lato', sans-serif !important;
