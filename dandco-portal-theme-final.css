@@ -333,7 +333,6 @@ img[src*="djep21.com/clients/images/cal"],
 img[src*="calendar_"],
 img[src*="_calendar"],
 td.djep-upcomingeventscalendaricon,
-/* TEMPORARILY DISABLED
 td:has(> .day),
 td:has(> span.day),
 div:has(> span.day) {
@@ -345,7 +344,6 @@ span.month,
 span.year {
     display: none !important;
 }
-TEMPORARILY DISABLED */
 
 /* ── CONTACT PAGE ICONS ── */
 .djep-ourcontactinfobox img {
@@ -386,7 +384,6 @@ hr {
 }
 
 /* ── PLANNING FORM ── */
-/* TEMPORARILY DISABLED
 table[id*="planning_form_table"] {
     border-collapse: separate !important;
     border-spacing: 0 4px !important;
@@ -401,9 +398,7 @@ table[id*="planning_form_table"] td.ed input[type="text"],
 table[id*="planning_form_table"] td.ed textarea {
     margin-bottom: 4px !important;
 }
-TEMPORARILY DISABLED */
 
-/* TEMPORARILY DISABLED
 td.djep-form-sections {
     font-family: 'Lato', sans-serif !important;
     font-size: 10px !important;
@@ -414,7 +409,6 @@ td.djep-form-sections {
     padding: 12px 5px 8px !important;
     border-bottom: 0.5px solid #e8e8e8 !important;
 }
-TEMPORARILY DISABLED */
 
 /* ── PLAN MY EVENT MUSIC BUTTONS ── */
 #djep-addsongimage a,
