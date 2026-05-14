@@ -530,9 +530,13 @@ img[src="images/scissors.gif"] {
 #alert_message_div,
 #alert_message_div td,
 #alert_message_div tr,
-#alert_message_div table {
+#alert_message_div table,
+.djep-titlebarconfirm {
     background-color: #f9f9f7 !important;
     background: #f9f9f7 !important;
+    background-image: none !important;
+    filter: none !important;
+    -webkit-filter: none !important;
     border: none !important;
     color: #2a2a2a !important;
     font-family: 'Lato', sans-serif !important;
