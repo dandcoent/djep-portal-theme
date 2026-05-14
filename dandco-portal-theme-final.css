@@ -526,6 +526,23 @@ img[src="images/scissors.gif"] {
     filter: grayscale(100%) !important;
 }
 
+/* ── SUCCESS NOTIFICATION BOX ── */
+#alert_message_div {
+    background-color: #f9f9f7 !important;
+    border: 0.5px solid #e8e8e8 !important;
+    border-radius: 6px !important;
+    color: #2a2a2a !important;
+    font-family: 'Lato', sans-serif !important;
+    font-size: 10px !important;
+    font-weight: 400 !important;
+    letter-spacing: 0.12em !important;
+    text-transform: uppercase !important;
+}
+
+/* Hide success checkmark icon */
+img[src="images/good_or_tick.png"] {
+    display: none !important;
+}
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
     #djep-content {
