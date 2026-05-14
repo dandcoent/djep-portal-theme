@@ -527,10 +527,13 @@ img[src="images/scissors.gif"] {
 }
 
 /* ── SUCCESS NOTIFICATION BOX ── */
-#alert_message_div {
+#alert_message_div,
+#alert_message_div td,
+#alert_message_div tr,
+#alert_message_div table {
     background-color: #f9f9f7 !important;
-    border: 0.5px solid #e8e8e8 !important;
-    border-radius: 6px !important;
+    background: #f9f9f7 !important;
+    border: none !important;
     color: #2a2a2a !important;
     font-family: 'Lato', sans-serif !important;
     font-size: 10px !important;
@@ -539,10 +542,19 @@ img[src="images/scissors.gif"] {
     text-transform: uppercase !important;
 }
 
+#alert_message_div {
+    border: 0.5px solid #e8e8e8 !important;
+    border-radius: 6px !important;
+    padding: 12px 16px !important;
+    width: 95% !important;
+    margin: 0 auto !important;
+}
+
 /* Hide success checkmark icon */
 img[src="images/good_or_tick.png"] {
     display: none !important;
 }
+
 /* ── RESPONSIVE ── */
 @media (max-width: 600px) {
     #djep-content {
